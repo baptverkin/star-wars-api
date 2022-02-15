@@ -1,0 +1,10 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<h3>STAR WARS PEOPLE</h3>
+<ul>
+{%for item in resultat%}
+  <li>{{item}}</li>
+{% endfor %}
+</ul>
+{% endblock %}
